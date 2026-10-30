@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Team - GymPro</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- 1. NAVIGATION BAR                            -->
+    <!-- ============================================ -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-dumbbell"></i> GYM<span>PRO</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="index.html#classes" class="nav-link">Classes</a></li>
+                    <li><a href="index.html#trainers" class="nav-link">Trainers</a></li>
+                    <li><a href="index.html#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="join.html" class="nav-link active">Join Team</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="index.html#pricing" class="btn btn-primary">Join Now</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ============================================ -->
+        <!-- 2. HERO SECTION                              -->
+        <!-- ============================================ -->
+        <section class="hero" style="height: 50vh; min-height: 400px;">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1 class="hero-title">Become a Part of <br><span>GymPro Family.</span></h1>
+                <p class="hero-subtitle">We are always looking for passionate trainers and staff to join our team.</p>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- 3. APPLICATION FORM                           -->
+        <!-- ============================================ -->
+        <section class="section-padding">
+            <div class="container" style="max-width: 700px;">
+                <div class="form-card" style="background: var(--bg-secondary); padding: 2.5rem; border-radius: 16px; border: 1px solid var(--border-color);">
+                    <form action="#" method="POST" enctype="multipart/form-data">
+                        
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="e.g. John Doe" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+20 100 000 0000" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="position">Position Applying For</label>
+                            <select id="position" name="position" required>
+                                <option value="" disabled selected>Select a position</option>
+                                <option value="trainer">Trainer</option>
+                                <option value="receptionist">Receptionist</option>
+                                <option value="manager">Manager</option>
+                                <option value="cleaner">Cleaner</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Upload CV (PDF / DOCX)</label>
+                            <div class="file-upload-wrapper">
+                                <label class="file-upload-label" for="cvFile">
+                                    <i class="fa-solid fa-cloud-arrow-up"></i> Choose File or Drag Here
+                                </label>
+                                <input type="file" id="cvFile" name="cvFile" accept=".pdf,.doc,.docx" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="experience">Years of Experience</label>
+                            <input type="number" id="experience" name="experience" min="0" max="40" placeholder="e.g. 3" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="startDate">Available Start Date</label>
+                            <input type="date" id="startDate" name="startDate" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="notes">Additional Notes</label>
+                            <textarea id="notes" name="notes" placeholder="Tell us a little bit about yourself..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- 4. WHY JOIN US SECTION                       -->
+        <!-- ============================================ -->
+        <section class="features section-padding" style="background: var(--bg-secondary);">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Join <span>GymPro?</span></h2>
+                    <p>We value your hard work and offer the best environment to grow.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon-box"><i class="fa-solid fa-sack-dollar"></i></div>
+                        <h3>Competitive Salary</h3>
+                        <p>We value your hard work and offer industry-leading compensation packages.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-box"><i class="fa-solid fa-chart-line"></i></div>
+                        <h3>Career Growth</h3>
+                        <p>Clear promotion pathways and continuous training to level up your skills.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-box"><i class="fa-solid fa-dumbbell"></i></div>
+                        <h3>Modern Facilities</h3>
+                        <p>Work with state-of-the-art equipment in a high-energy, premium environment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================ -->
+    <!-- 5. FOOTER                                    -->
+    <!-- ============================================ -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-col brand-col">
+                <a href="index.html" class="logo">
+                    <i class="fa-solid fa-dumbbell"></i> GYM<span>PRO</span>
+                </a>
+                <p>Empowering individuals through supreme fitness facilities, elite coaching, and unbreakable community culture.</p>
+            </div>
+            <div class="footer-col links-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#classes">Classes</a></li>
+                    <li><a href="index.html#trainers">Trainers</a></li>
+                    <li><a href="index.html#pricing">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="footer-col contact-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Power Avenue, Muscle City</li>
+                    <li><i class="fa-solid fa-phone"></i> +1 (555) 019-2834</li>
+                    <li><i class="fa-solid fa-envelope"></i> contact@gympro.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 GymPro. All Rights Reserved.</p>
+                <p class="designer-credit">Designed by ghazal-medo</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External Script -->
+    <script src="script.js"></script>
+</body>
+</html>

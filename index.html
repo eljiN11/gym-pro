@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GymPro - Premier Fitness & Gym Facility. Transform your body with expert trainers and world-class equipment.">
+    <title>GymPro | Transform Your Body</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- 1. NAVIGATION BAR                            -->
+    <!-- ============================================ -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-dumbbell"></i> GYM<span>PRO</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#classes" class="nav-link">Classes</a></li>
+                    <li><a href="#trainers" class="nav-link">Trainers</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li><a href="join.html" class="nav-link">Join Team</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#pricing" class="btn btn-primary">Join Now</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ============================================ -->
+        <!-- 2. HERO SECTION                              -->
+        <!-- ============================================ -->
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1 class="hero-title">Transform Your Body.<br><span>Transform Your Life.</span></h1>
+                <p class="hero-subtitle">Join the ultimate fitness experience with expert trainers and world-class facilities designed to take you to the next level.</p>
+                <div class="hero-buttons">
+                    <a href="#pricing" class="btn btn-primary btn-large">Get Started</a>
+                    <a href="#classes" class="btn btn-secondary btn-large">View Classes</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- 3. FEATURES / WHY CHOOSE US                  -->
+        <!-- ============================================ -->
+        <section id="features" class="features section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Choose <span>GymPro</span></h2>
+                    <p>We provide everything you need to reach your peak potential.</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-user-ninja"></i>
+                        </div>
+                        <h3>Expert Trainers</h3>
+                        <p>Certified professionals dedicated to guiding, motivating, and customizing workouts for your personal goals.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-dumbbell"></i>
+                        </div>
+                        <h3>Modern Equipment</h3>
+                        <p>State-of-the-art machines and free weights designed for optimal biomechanics and maximum safety.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-clipboard-list"></i>
+                        </div>
+                        <h3>Personalized Plans</h3>
+                        <p>Custom tailored workout and nutrition routines designed around your unique body composition and targets.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <h3>24/7 Access</h3>
+                        <p>Round-the-clock facility access so you can train on your schedule, day or night.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- 4. POPULAR CLASSES                           -->
+        <!-- ============================================ -->
+        <section id="classes" class="classes section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Popular <span>Classes</span></h2>
+                    <p>High-energy sessions built to challenge every fitness level.</p>
+                </div>
+
+                <div class="classes-grid">
+                    <div class="class-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80" alt="HIIT Training">
+                            <span class="badge">High Intensity</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>HIIT Burn</h3>
+                            <p class="class-meta"><i class="fa-regular fa-clock"></i> 45 Mins | <i class="fa-solid fa-fire"></i> 600+ Cal</p>
+                            <p class="class-desc">Rapid-fire interval training designed to push your cardiovascular limits and torch fat fast.</p>
+                            <a href="#contact" class="btn btn-card">Book Now</a>
+                        </div>
+                    </div>
+
+                    <div class="class-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80" alt="Powerlifting">
+                            <span class="badge">Strength</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Powerlifting</h3>
+                            <p class="class-meta"><i class="fa-regular fa-clock"></i> 60 Mins | <i class="fa-solid fa-fire"></i> 400+ Cal</p>
+                            <p class="class-desc">Master compound movements, build raw strength, and break personal records with heavy iron.</p>
+                            <a href="#contact" class="btn btn-card">Book Now</a>
+                        </div>
+                    </div>
+
+                    <div class="class-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=800&q=80" alt="Flex & Flow Yoga">
+                            <span class="badge">Flexibility</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Flex & Flow</h3>
+                            <p class="class-meta"><i class="fa-regular fa-clock"></i> 50 Mins | <i class="fa-solid fa-fire"></i> 250+ Cal</p>
+                            <p class="class-desc">Dynamic yoga flows to improve mobility, boost core stability, and speed up muscular recovery.</p>
+                            <a href="#contact" class="btn btn-card">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- 5. MEET OUR TRAINERS                         -->
+        <!-- ============================================ -->
+        <section id="trainers" class="trainers section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Meet Our <span>Trainers</span></h2>
+                    <p>World-class coaching talent ready to help you reach your personal best.</p>
+                </div>
+
+                <div class="trainers-grid">
+                    <div class="trainer-card">
+                        <div class="trainer-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=800&q=80" alt="Alex Rivera">
+                        </div>
+                        <div class="trainer-info">
+                            <h3>Alex Rivera</h3>
+                            <span class="specialty">Head Strength Coach</span>
+                            <div class="social-links">
+                                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trainer-card">
+                        <div class="trainer-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=800&q=80" alt="Sarah Jenkins">
+                        </div>
+                        <div class="trainer-info">
+                            <h3>Sarah Jenkins</h3>
+                            <span class="specialty">HIIT & Conditioning Specialist</span>
+                            <div class="social-links">
+                                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trainer-card">
+                        <div class="trainer-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=800&q=80" alt="Marcus Vance">
+                        </div>
+                        <div class="trainer-info">
+                            <h3>Marcus Vance</h3>
+                            <span class="specialty">Bodybuilding & Nutrition</span>
+                            <div class="social-links">
+                                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- 6. PRICING SECTION                           -->
+        <!-- ============================================ -->
+        <section id="pricing" class="pricing section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Membership <span>Plans</span></h2>
+                    <p>Transparent pricing with zero hidden fees. Pick the path that fits your drive.</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Basic Plan -->
+                    <div class="pricing-card">
+                        <div class="plan-header">
+                            <h3>Basic</h3>
+                            <div class="price">$29<span>/mo</span></div>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i> Gym Floor Access</li>
+                            <li><i class="fa-solid fa-check"></i> Locker Room & Showers</li>
+                            <li><i class="fa-solid fa-check"></i> Standard Fitness Assessment</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Group Fitness Classes</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> 24/7 Access</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> 1-on-1 Personal Training</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Choose Plan</a>
+                    </div>
+
+                    <!-- Pro Plan (Popular) -->
+                    <div class="pricing-card popular">
+                        <div class="popular-tag">Most Popular</div>
+                        <div class="plan-header">
+                            <h3>Pro</h3>
+                            <div class="price">$59<span>/mo</span></div>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i> Gym Floor Access</li>
+                            <li><i class="fa-solid fa-check"></i> Locker Room & Sauna</li>
+                            <li><i class="fa-solid fa-check"></i> Full Fitness & Body Scan</li>
+                            <li><i class="fa-solid fa-check"></i> Unlimited Group Classes</li>
+                            <li><i class="fa-solid fa-check"></i> 24/7 Facility Access</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> 1-on-1 Personal Training</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Choose Plan</a>
+                    </div>
+
+                    <!-- Elite Plan -->
+                    <div class="pricing-card">
+                        <div class="plan-header">
+                            <h3>Elite</h3>
+                            <div class="price">$99<span>/mo</span></div>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i class="fa-solid fa-check"></i> All Pro Features Included</li>
+                            <li><i class="fa-solid fa-check"></i> 2 Personal Training Sessions/mo</li>
+                            <li><i class="fa-solid fa-check"></i> Customized Nutrition Coaching</li>
+                            <li><i class="fa-solid fa-check"></i> VIP Locker Room Access</li>
+                            <li><i class="fa-solid fa-check"></i> Guest Passes (2 per month)</li>
+                            <li><i class="fa-solid fa-check"></i> Free GymPro Merchandise</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- 7. TESTIMONIALS SECTION                      -->
+        <!-- ============================================ -->
+        <section class="testimonials section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Success <span>Stories</span></h2>
+                    <p>Read how our members transformed their athletic potential and mindsets.</p>
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"Joining GymPro completely flipped my lifestyle around. The trainers push you safely beyond limits you didn't know you had. Down 25lbs in 3 months!"</p>
+                        <div class="client-info">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" alt="David Miller">
+                            <div>
+                                <h4>David Miller</h4>
+                                <span>Member for 1 Year</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"The community culture here is unreal. Modern equipment, elite clean environments, and classes that burn serious calories. Couldn't recommend it more."</p>
+                        <div class="client-info">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Emily Chen">
+                            <div>
+                                <h4>Emily Chen</h4>
+                                <span>Member for 6 Months</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="review-text">"24/7 access matches my busy work schedule perfectly. The personal training routine built for me gave me real strength gains fast without injury."</p>
+                        <div class="client-info">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80" alt="Jason Becker">
+                            <div>
+                                <h4>Jason Becker</h4>
+                                <span>Member for 2 Years</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- 8. FINAL CTA SECTION                         -->
+        <!-- ============================================ -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-box">
+                    <h2>Ready To Start Your <span>Fitness Journey?</span></h2>
+                    <p>Stop waiting for tomorrow. Claim your 1-day free VIP trial pass today and take your first step toward physical excellence.</p>
+                    <a href="#pricing" class="btn btn-primary btn-large">Join GymPro Today</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================ -->
+    <!-- 9. FOOTER                                    -->
+    <!-- ============================================ -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-col brand-col">
+                <a href="#home" class="logo">
+                    <i class="fa-solid fa-dumbbell"></i> GYM<span>PRO</span>
+                </a>
+                <p>Empowering individuals through supreme fitness facilities, elite coaching, and unbreakable community culture.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col links-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#trainers">Trainers</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#features">Features</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> 123 Power Avenue, Muscle City</li>
+                    <li><i class="fa-solid fa-phone"></i> +1 (555) 019-2834</li>
+                    <li><i class="fa-solid fa-envelope"></i> contact@gympro.com</li>
+                    <li><i class="fa-solid fa-clock"></i> Open 24/7 / 365 Days</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 GymPro. All Rights Reserved.</p>
+                <p class="designer-credit">Designed by ghazal-medo</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script File -->
+    <script src="script.js"></script>
+</body>
+</html>
